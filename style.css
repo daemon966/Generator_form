@@ -1,0 +1,148 @@
+body{
+	background-color: rgb(193, 223, 193);
+	font-family: Roboto,Sans-serif;
+}
+.form{
+	height: 1100px;
+	width: 700px;
+	margin: auto;
+}
+.required{
+color: red;
+}
+.title-div{
+	height: 100px;
+	width: 600px;
+	background-color: #FDFEFE;
+	margin: 15px;
+	border-radius: 8px;
+	border: 4px solid lightgreen;
+	padding: 25px;
+}
+.title2-div{
+	height: 50px;
+	width: 600px;
+	background-color: transparent;
+	margin: 15px;
+	padding: 25px;
+}
+
+.name-div, .address-div, .gmail-div, .mobile-div, .city-div, .state-div, .date-div{
+	height: 130px;
+	width: 650px;
+	background-color: #FDFEFE;
+	margin: 15px;
+    border: solid green 3px;
+	border-radius: 8px ;
+}
+
+.genType-div{
+	height: auto;
+	width: 650px;
+	background-color: #FDFEFE;
+	margin: 15px;
+    border: solid green 3px;
+	border-radius: 8px ;
+}
+
+
+.city-div select {
+    width: 150px; /* Adjust the width as needed */
+    height: 30px; /* Adjust the height as needed */
+}
+
+.name{
+	padding-top: 20px;
+	padding-left: 25px;
+	padding-bottom: 25px;
+	font-size: 15px;
+}
+.input-div{
+	padding-top: 25px;
+	padding-left: 25px;
+}
+.input-div2 {
+    
+    padding-left: 25px;
+}
+
+.input-div input{
+	width: 300px;
+	border: 0;
+	outline: 0;
+	border-bottom: 1.5px solid #DCD7D7;
+	font-size: 15px;
+}
+
+.input-div2 input {
+    width: auto;
+    border: 0;
+    outline: 0;
+    margin-right: 10px; 
+    margin-bottom: 10px; 
+    padding: 5px 10px; 
+    font-size: 15px;
+    display: inline-block;
+}
+
+.kva-div{
+	height: 130px;
+	width: 650px;
+	background-color: #FDFEFE;
+	margin: 15px;
+    border: solid green 3px;
+	border-radius: 8px ;
+    
+   
+}
+
+.input2-div input {
+    width: auto; 
+    border: 0;
+    outline: 0;
+    margin-right: 5px;
+    font-size: 15px;
+}
+
+
+
+.state-div select {
+    width: 150px;
+    height: 30px; 
+}
+
+
+.btn,.btnadd{
+	height: 36px;
+	width: 100px;
+	background-color: green;
+	border-radius: 5px;
+	font-size: 14px;
+	letter-spacing: .5px;
+	font-weight: 540;
+	border: none;
+	padding: 10px;
+	position: absolute;
+	margin: 15px;
+	color: white;
+}
+.last-div h2{
+	text-align: center;
+	padding-top: 50px;
+	color: #a2a4a6;
+	font-weight: 200;
+}
+.term{
+	font-size: 12px;
+	padding-left: 65px;
+	padding-top: 5px;
+	position: absolute;
+}
+.never{
+	padding-left: 15px;
+	font-size: 12px;
+	padding-top: 70px;
+	font-weight: 400;
+
+}
+
